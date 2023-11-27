@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    .eliminarLogo {
+        display: none;
+    }
+}
+
+.colorFondo {
+    background-color: rgb(237, 93, 5);
+}
+
+.radioLogo {
+    border-radius: 100%;
+}
+.offcanvas-header{background-color: rgb(237, 93, 5);}
