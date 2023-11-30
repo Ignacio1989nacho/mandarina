@@ -82,15 +82,30 @@
 .letrasMenuHamgur{
    
     max-width: 100%;
-    border-top:solid green 2px;
-    background-color:rgb(237, 93, 5);
-
+    /*border-top:solid green 2px;*/
+    background-color: antiquewhite;
+    border-radius: 5px 5px 0px 0px;
 }
+
 .navbar{padding:0px!important;
       
 }
-.container{
+
+
+.navbar-nav{
+    padding:20px;
+}
+.border-general{border: solid rgb(204, 187, 232) 25px;
+border-radius: 30px;}
+
+.color-menu-hambur{
+    background-color: rgb(204, 187, 232);
     
-    padding:0px!important
+}
+.color-menu-letras{
+    background-color: black;
 }
 
+.color-letras-menu{
+    color:rgb(237, 93, 5);
+}

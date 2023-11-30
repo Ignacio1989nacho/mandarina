@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.titulo-fuente {
+    font-family:'Pacifico',
+        cursive;
+    color: rgb(237, 93, 5);
+    /* color pastel */
+    text-align: center;
+    font-size: 4vw;
+    /* tamaño responsive */
+    margin-top:10px;
+}
+
+@media screen and (min-width: 600px) {
+    .titulo-fuente {
+        font-size: 40px;
+        /* tamaño fijo para pantallas más grandes */
+    }
+}

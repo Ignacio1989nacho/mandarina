@@ -3,6 +3,7 @@ import "../css/Header.css";
 
 const Header = (props) => {
   return (
+    
     <div className="colorFondo eliminarLogo">
       
         <img

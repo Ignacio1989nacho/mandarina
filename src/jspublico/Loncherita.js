@@ -2,10 +2,17 @@ import React from 'react'
 import FotoDescripcionProducto from "./FotoDescripcionProducto";
 const Loncherita = (props) => {
   return (
-    <div>
-      <h2>LONCHERITAS</h2>
+    <div className="">
+      <h2 className="titulo-fuente">LONCHERITAS</h2>
+
       <FotoDescripcionProducto
-        imagen="mint-5239188_640"
+        imagen="loncheritaIg"
+        descripcion="descrip"
+        numeroArticulo="137"
+        precio="150"
+      />
+      <FotoDescripcionProducto
+        imagen="loncherita2Ig"
         descripcion="descrip"
         numeroArticulo="137"
         precio="150"

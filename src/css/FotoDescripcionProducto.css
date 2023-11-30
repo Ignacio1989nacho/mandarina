@@ -2,3 +2,49 @@
     max-width: 100%;
     height: auto;
 }
+
+.flex{display:flex;
+}
+
+.descripcion-producto{
+
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+}
+
+.tam {
+    width: 50%;
+    height: auto;
+
+}
+.expandible {
+    transition: transform 3s ease-in-out;
+    
+}
+
+.expandible:hover {
+    transform: scale(1.5);
+}
+.cont {
+    position: relative;
+    /* Esto permite que los elementos hijos se posicionen en relación a este contenedor */
+    overflow: hidden;
+    /* Esto evita que los elementos hijos se salgan del contenedor */
+}
+
+.imagenes-tam{
+    
+    border:solid black 3px;
+    
+        
+}
+
+.text-descripcion{
+
+    text-align: start!important;
+}
+
+.borde-div{border:solid black 3px;}
+
+

@@ -4,11 +4,15 @@
     }
 }
 
-.colorFondo {
+/*.colorFondo {
     background-color: rgb(237, 93, 5);
-}
+}*/
 
 .radioLogo {
-    border-radius: 100%;
+border-radius: 50% 50% 50% 50%;
+border:solid rgb(237, 93, 5) 3px;
+
+
 }
-.offcanvas-header{background-color: rgb(237, 93, 5);}
+/*
+.offcanvas-header{background-color: rgb(237, 93, 5);}*/

@@ -1,35 +1,26 @@
-import React from 'react'
+import React from "react";
 import "../css/NavBar.css";
+import Carrusell from "./Carrusell";
 
 const Main = (props) => {
-    let style = {
-      width: "80%",
-      height: "300px",
-      borderRadius: "21px 21px 0 0",
-    };
+  let style = {
+    width: "80%",
+    height: "300px",
+    borderRadius: "21px 21px 0 0",
+  };
   return (
     <div>
       <main>
         <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-body-tertiary">
           <div class="col-md-6 p-lg-5 mx-auto my-5">
-            <h1 class="display-3 fw-bold">Designed for engineers</h1>
+           <Carrusell imagen1="juegomateIg" imagen2="botellasIg" imagen3="loncherita2Ig"/>
             <h3 class="fw-normal text-muted mb-3">
-              Build anything you want with Aperture
+              ¡Bienvenidos a nuestro bazar y tienda de decoración en línea! Aquí
+              encontrarás una amplia variedad de artículos para el uso diario,
+              desde basos, botellas, loncheras elegantes hasta accesorios
+              decorativos únicos. Nuestro objetivo es ayudarte a elegir tus
+              accesorios para que reflejen tu estilo y personalidad!.
             </h3>
-            <div class="d-flex gap-3 justify-content-center lead fw-normal">
-              <a class="icon-link" href="#">
-                Learn more
-                <svg class="bi">
-                  <use xlinkHref="#chevron-right" />
-                </svg>
-              </a>
-              <a class="icon-link" href="#">
-                Buy
-                <svg class="bi">
-                  <use xlinkHref="#chevron-right" />
-                </svg>
-              </a>
-            </div>
           </div>
           <div class="product-device shadow-sm d-none d-md-block"></div>
           <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
@@ -105,6 +96,6 @@ const Main = (props) => {
       </main>
     </div>
   );
-}
+};
 
-export default Main
+export default Main;

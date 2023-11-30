@@ -4,7 +4,8 @@ import NavBar from './jspublico/NavBar';
 import "../src/css/Watt.css";
 function App() {
   return (
-    <div className="App">
+    <div className="App border-radio">
+      
       <NavBar />
       <a
         href="https://wa.me/1234567890"
@@ -14,7 +15,9 @@ function App() {
       >
         <i className="fab fa-whatsapp"></i>
       </a>
+      
     </div>
+    
   );
 }
 
