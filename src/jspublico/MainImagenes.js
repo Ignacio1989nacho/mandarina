@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../css/MainImagenes.css"
 const MainImagenes = (props) => {
      let style = {
        width: "80%",
@@ -8,15 +8,14 @@ const MainImagenes = (props) => {
      };
   return (
     <div>
-      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+      <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 flex-pantalla-pc">
+        <div class="text-bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden ">
           <div class="my-3 py-3">
             <h2 class="display-5">AQUI ALGO</h2>
             <p class="lead">AQUI TMB.</p>
           </div>
           <div class="bg-body-tertiary shadow-sm mx-auto" style={style}></div>
         </div>
-      
       </div>
     </div>
   );
