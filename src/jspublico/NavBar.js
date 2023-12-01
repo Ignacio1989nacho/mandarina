@@ -10,15 +10,12 @@ import Yerberos from "./Yerberos";
 import JuegoMate from "./JuegoMate";
 import Loncherita from "./Loncherita";
 import Header from "./Header";
+  //selecciona todos los elementos con la clase igual.
 
-
-
+  
 const NavBar = (props) => {
-  document.querySelectorAll(".nav-item a").forEach(function (link) {
-    link.addEventListener("click", function () {
-      document.getElementById("offcanvas").classList.remove("show");
-    });
-  });
+ 
+
   return (
     <div>
       <div className="border-general">
@@ -51,7 +48,7 @@ const NavBar = (props) => {
               <span class="navbar-toggler-icon "></span>
             </button>
             <div
-              class="offcanvas offcanvas-end color-menu-hambur"
+              class="offcanvas offcanvas-end  color-menu-hambur"
               tabindex="-1"
               id="offcanvas"
               aria-labelledby="offcanvasLabel"
@@ -86,16 +83,24 @@ const NavBar = (props) => {
                     <Link
                       to="/"
                       className="color-font descrip-text eliminar-linea-link"
-                      
+                      onClick={() => {
+                        // Aquí es donde seleccionas y haces click en el botón .btn-close
+                        var boton = document.querySelector(".btn-close");
+                        boton.click();
+                      }}
                     >
-                      Inicio{" "}
+                      Inicio{}
                     </Link>
                   </li>
                   <li class="nav-item ">
                     <Link
                       to="/Basos"
                       className="color-font descrip-text eliminar-linea-link"
-                      
+                      onClick={() => {
+                        // Aquí es donde seleccionas y haces click en el botón .btn-close
+                        var boton = document.querySelector(".btn-close");
+                        boton.click();
+                      }}
                     >
                       Basos{" "}
                     </Link>
@@ -104,7 +109,11 @@ const NavBar = (props) => {
                     <Link
                       to="/Botellas"
                       className="color-font descrip-text eliminar-linea-link"
-                     
+                      onClick={() => {
+                        // Aquí es donde seleccionas y haces click en el botón .btn-close
+                        var boton = document.querySelector(".btn-close");
+                        boton.click();
+                      }}
                     >
                       Botellas{" "}
                     </Link>
@@ -113,7 +122,11 @@ const NavBar = (props) => {
                     <Link
                       to="/Loncherita"
                       className="color-font descrip-text eliminar-linea-link"
-                      
+                      onClick={() => {
+                        // Aquí es donde seleccionas y haces click en el botón .btn-close
+                        var boton = document.querySelector(".btn-close");
+                        boton.click();
+                      }}
                     >
                       Loncherita{" "}
                     </Link>
@@ -122,7 +135,11 @@ const NavBar = (props) => {
                     <Link
                       to="/JuegoMate"
                       className="color-font descrip-text eliminar-linea-link"
-                      
+                      onClick={() => {
+                        // Aquí es donde seleccionas y haces click en el botón .btn-close
+                        var boton = document.querySelector(".btn-close");
+                        boton.click();
+                      }}
                     >
                       Juego de Mate{" "}
                     </Link>
@@ -131,7 +148,11 @@ const NavBar = (props) => {
                     <Link
                       to="/YerberosyZucareras"
                       className="color-font descrip-text eliminar-linea-link"
-                      
+                      onClick={() => {
+                        // Aquí es donde seleccionas y haces click en el botón .btn-close
+                        var boton = document.querySelector(".btn-close");
+                        boton.click();
+                      }}
                     >
                       Yerberos y Zucareras{" "}
                     </Link>
