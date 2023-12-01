@@ -10,12 +10,16 @@ import Yerberos from "./Yerberos";
 import JuegoMate from "./JuegoMate";
 import Loncherita from "./Loncherita";
 import Header from "./Header";
-
-
+ 
+        document.querySelectorAll('.nav-item a').forEach(function(link) {
+            link.addEventListener('click', function() {
+                document.getElementById('offcanvas').classList.remove('show');
+            });
+        });
+    
 const NavBar = (props) => {
-  
-  return (
 
+  return (
     <div>
       <div className="border-general">
         <Header />
@@ -47,7 +51,7 @@ const NavBar = (props) => {
               <span class="navbar-toggler-icon "></span>
             </button>
             <div
-              class="offcanvas offcanvas-end color-menu-hambur"
+              class="offcanvas offcanvas-end color-menu-hambur ocultar"
               tabindex="-1"
               id="offcanvas"
               aria-labelledby="offcanvasLabel"
@@ -66,7 +70,10 @@ const NavBar = (props) => {
                   aria-label="Close"
                 ></button>
               </div>
-              <div class="offcanvas-body letrasMenuHamgur color-menu-letras">
+              <div
+                id="menu"
+                class="offcanvas-body letrasMenuHamgur color-menu-letras "
+              >
                 <ul class="navbar-nav flex-grow-1 justify-content-between">
                   <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -79,7 +86,6 @@ const NavBar = (props) => {
                     <Link
                       to="/"
                       className="color-font descrip-text eliminar-linea-link"
-                      
                     >
                       Inicio{" "}
                     </Link>

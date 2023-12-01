@@ -1,5 +1,5 @@
 
-body{border:solid black 3px;border-radius: 30px;}
+/*body{border:solid black 3px;border-radius: 30px;}*/
 .App {
   text-align: center;
 }
@@ -39,5 +39,5 @@ body{border:solid black 3px;border-radius: 30px;}
   }
 }
 
-.border-radio{border-radius: 30px!important;}
+/*.border-radio{border-radius: 30px!important;}*/
 

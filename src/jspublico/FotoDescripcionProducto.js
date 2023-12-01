@@ -6,11 +6,13 @@ const FotoDescripcionProducto = (props) => {
       <div class="col">
         <div class="card shadow-sm">
           <div className="expandible ">
+            
             <img
               className="borde-imagen flex-imagen "
               src={require(`../imagenes/${props.imagen}.jpg`)}
               alt="Imagen aqui"
             />
+            
           </div>
           <div class="card-body descripcion-producto text-descripcion ">
             <p class="card-text">{props.descripcion}</p>

@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
 .titulo-fuente {
-    font-family:'Pacifico',
-        cursive;
+    font-family:'Roboto'
+        ;
     color: rgb(237, 93, 5);
     /* color pastel */
     text-align: center;

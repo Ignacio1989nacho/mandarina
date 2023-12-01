@@ -5,7 +5,7 @@ const Basos = (props) => {
   return (
     <div>
       <h2 className="titulo-fuente">BASOS</h2>
-      <div className="flex borde-div ">
+      <div className="flex  ">
         <FotoDescripcionProducto
           imagen="basosIg"
           descripcion="descrip"

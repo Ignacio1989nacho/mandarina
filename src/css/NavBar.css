@@ -96,7 +96,7 @@
     padding:20px;
 }
 .border-general{border: solid rgb(204, 187, 232) 25px;
-border-radius: 30px;}
+/*border-radius: 30px;*/}
 
 .color-menu-hambur{
     background-color: rgb(204, 187, 232);
@@ -108,4 +108,13 @@ border-radius: 30px;}
 
 .color-letras-menu{
     color:rgb(237, 93, 5);
+}
+
+.ocultar {
+    transition: visibility 0.4s;
+    visibility:hidden;
+}
+
+.ocultar:target {
+    visibility:visible;
 }
