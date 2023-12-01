@@ -10,15 +10,15 @@ import Yerberos from "./Yerberos";
 import JuegoMate from "./JuegoMate";
 import Loncherita from "./Loncherita";
 import Header from "./Header";
- 
-        document.querySelectorAll('.nav-item a').forEach(function(link) {
-            link.addEventListener('click', function() {
-                document.getElementById('offcanvas').classList.remove('show');
-            });
-        });
-    
-const NavBar = (props) => {
 
+
+
+const NavBar = (props) => {
+  document.querySelectorAll(".nav-item a").forEach(function (link) {
+    link.addEventListener("click", function () {
+      document.getElementById("offcanvas").classList.remove("show");
+    });
+  });
   return (
     <div>
       <div className="border-general">
@@ -29,7 +29,7 @@ const NavBar = (props) => {
           data-bs-theme="dark"
         >
           <div class="container letrasMenuHamgur ">
-            <a class="navbar-brand d-md-none" href="#">
+            <a class="navbar-brand d-md-none " href="#">
               <svg class="bi" width="24" height="24">
                 <use xlinkHref="#aperture" />
               </svg>
@@ -51,14 +51,14 @@ const NavBar = (props) => {
               <span class="navbar-toggler-icon "></span>
             </button>
             <div
-              class="offcanvas offcanvas-end color-menu-hambur ocultar"
+              class="offcanvas offcanvas-end color-menu-hambur"
               tabindex="-1"
               id="offcanvas"
               aria-labelledby="offcanvasLabel"
             >
               <div class="offcanvas-header ">
                 <h5
-                  class="offcanvas-title color-letras-menu"
+                  class="offcanvas-title color-letras-menu "
                   id="#offcanvasLabel"
                 >
                   MANDARINA Deco & Bazar
@@ -86,6 +86,7 @@ const NavBar = (props) => {
                     <Link
                       to="/"
                       className="color-font descrip-text eliminar-linea-link"
+                      
                     >
                       Inicio{" "}
                     </Link>
@@ -94,6 +95,7 @@ const NavBar = (props) => {
                     <Link
                       to="/Basos"
                       className="color-font descrip-text eliminar-linea-link"
+                      
                     >
                       Basos{" "}
                     </Link>
@@ -102,6 +104,7 @@ const NavBar = (props) => {
                     <Link
                       to="/Botellas"
                       className="color-font descrip-text eliminar-linea-link"
+                     
                     >
                       Botellas{" "}
                     </Link>
@@ -110,6 +113,7 @@ const NavBar = (props) => {
                     <Link
                       to="/Loncherita"
                       className="color-font descrip-text eliminar-linea-link"
+                      
                     >
                       Loncherita{" "}
                     </Link>
@@ -118,6 +122,7 @@ const NavBar = (props) => {
                     <Link
                       to="/JuegoMate"
                       className="color-font descrip-text eliminar-linea-link"
+                      
                     >
                       Juego de Mate{" "}
                     </Link>
@@ -126,6 +131,7 @@ const NavBar = (props) => {
                     <Link
                       to="/YerberosyZucareras"
                       className="color-font descrip-text eliminar-linea-link"
+                      
                     >
                       Yerberos y Zucareras{" "}
                     </Link>
