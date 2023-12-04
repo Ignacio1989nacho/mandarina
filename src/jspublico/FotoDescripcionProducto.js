@@ -5,14 +5,14 @@ const FotoDescripcionProducto = (props) => {
     <div className="cont ">
       <div class="col borde-div">
         <div class="card shadow-sm">
-          <div className="expandible ">
+          <div className="expandible back-color-imagen">
             <img
               className="borde-imagen flex-imagen "
               src={require(`../imagenes/${props.imagen}.jpg`)}
               alt="Imagen aqui"
             />
           </div>
-          <div class="card-body descripcion-producto text-descripcion ">
+          <div class="card-body descripcion-producto text-descripcion back-color-descrip">
             <p class="card-text">{props.descripcion}</p>
             <div class="d-flex justify-content-between align-items-center">
               <p>Art n° {props.numeroArticulo}</p>

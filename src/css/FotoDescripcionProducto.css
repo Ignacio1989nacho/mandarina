@@ -2,7 +2,7 @@
     max-width: 100%;
     height: auto;
     margin:3px;
-    
+
 }
 
 .flex{display:flex;
@@ -48,6 +48,10 @@
     text-align: start!important;
 }
 
-.borde-div{border:solid rgb(204, 187, 232)   3px;border-radius: 10px;}
+.borde-div{border:solid rgb(204, 187, 232)   1px;border-radius: 10px;}
 
 
+.back-color-imagen{background-color: antiquewhite;border-radius: 5px;}
+.back-color-descrip{
+        
+        border-radius: 5px;}

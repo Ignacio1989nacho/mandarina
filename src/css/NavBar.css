@@ -85,7 +85,7 @@
     /*border-top:solid green 2px;*/
     background-color: antiquewhite;
     border-radius: 5px 5px 0px 0px;
-    border:solid 3px rgb(237, 93, 5);
+   /* border:solid 3px rgb(237, 93, 5);*/
 }
 
 .navbar{padding:0px!important;
@@ -101,7 +101,7 @@
 
 .color-menu-hambur{
     background-color: rgb(204, 187, 232);
-    border: solid rgb(237, 93, 5) 3px;
+    border: solid rgb(237, 93, 5) 1px;
     
 }
 .color-menu-letras{
