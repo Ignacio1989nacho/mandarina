@@ -4,7 +4,7 @@ import "../css/TituloFuente.css";
 const Basos = (props) => {
   return (
     <div>
-      <h2 className="titulo-fuente">BASOS</h2>
+      <h2 className="titulo-fuente">VASOS</h2>
       <div className="flex  ">
         <FotoDescripcionProducto
           imagen="basosIg"

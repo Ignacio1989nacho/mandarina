@@ -1,6 +1,8 @@
 .borde-imagen.flex-imagen {
     max-width: 100%;
     height: auto;
+    margin:3px;
+    
 }
 
 .flex{display:flex;
@@ -31,6 +33,7 @@
     /* Esto permite que los elementos hijos se posicionen en relación a este contenedor */
     overflow: hidden;
     /* Esto evita que los elementos hijos se salgan del contenedor */
+    margin:10px;
 }
 
 .imagenes-tam{
@@ -45,6 +48,6 @@
     text-align: start!important;
 }
 
-.borde-div{border:solid black 3px;}
+.borde-div{border:solid rgb(204, 187, 232)   3px;border-radius: 10px;}
 
 

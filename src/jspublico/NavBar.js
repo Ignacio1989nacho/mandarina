@@ -48,7 +48,7 @@ const NavBar = (props) => {
               <span class="navbar-toggler-icon "></span>
             </button>
             <div
-              class="offcanvas offcanvas-end  color-menu-hambur"
+              class="offcanvas offcanvas-end  "
               tabindex="-1"
               id="offcanvas"
               aria-labelledby="offcanvasLabel"
@@ -69,7 +69,7 @@ const NavBar = (props) => {
               </div>
               <div
                 id="menu"
-                class="offcanvas-body letrasMenuHamgur color-menu-letras "
+                class="offcanvas-body  color-menu-letras "
               >
                 <ul class="navbar-nav flex-grow-1 justify-content-between">
                   <li class="nav-item">
@@ -102,7 +102,7 @@ const NavBar = (props) => {
                         boton.click();
                       }}
                     >
-                      Basos{" "}
+                      Vasos{" "}
                     </Link>
                   </li>
                   <li class="nav-item ">

@@ -2,17 +2,15 @@ import React from "react";
 import "../css/FotoDescripcionProducto.css"
 const FotoDescripcionProducto = (props) => {
   return (
-    <div className="cont">
-      <div class="col">
+    <div className="cont ">
+      <div class="col borde-div">
         <div class="card shadow-sm">
           <div className="expandible ">
-            
             <img
               className="borde-imagen flex-imagen "
               src={require(`../imagenes/${props.imagen}.jpg`)}
               alt="Imagen aqui"
             />
-            
           </div>
           <div class="card-body descripcion-producto text-descripcion ">
             <p class="card-text">{props.descripcion}</p>
@@ -23,6 +21,7 @@ const FotoDescripcionProducto = (props) => {
           </div>
         </div>
       </div>
+      <br />
     </div>
   );
 };
