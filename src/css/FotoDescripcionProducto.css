@@ -51,7 +51,14 @@
 .borde-div{border:solid rgb(204, 187, 232)   1px;border-radius: 10px;}
 
 
-.back-color-imagen{background-color: antiquewhite;border-radius: 5px;}
+.back-color-imagen{background-color: antiquewhite;
+    border-radius: 5px;
+    align-items: stretch;
+    display: flex;   
+    flex-direction: column;
+}
 .back-color-descrip{
-        
-        border-radius: 5px;}
+        background-color: aliceblue;
+        border: solid white 1px;
+        border-radius: 5px;
+    }
