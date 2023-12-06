@@ -27,7 +27,7 @@ function App() {
       <NavBar />
       <a
         href="https://wa.me/1234567890"
-        className="whatsapp-icon"
+        className="whatsapp-icon wt-superior"
         target="_blank"
         rel="noopener noreferrer"
       >

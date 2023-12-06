@@ -7,3 +7,9 @@
         display: flex;
         justify-content: center;
         align-items: center;}
+
+.pop-superior{
+
+
+        z-index: 1000;
+}

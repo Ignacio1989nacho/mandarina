@@ -17,7 +17,7 @@ const NavBar = (props) => {
  
 
   return (
-    <div>
+    <div className="pop-superior">
       <div className="border-general">
         <Header />
 
@@ -67,10 +67,7 @@ const NavBar = (props) => {
                   aria-label="Close"
                 ></button>
               </div>
-              <div
-                id="menu"
-                class="offcanvas-body  color-menu-letras "
-              >
+              <div id="menu" class="offcanvas-body  color-menu-letras ">
                 <ul class="navbar-nav flex-grow-1 justify-content-between">
                   <li class="nav-item">
                     <a class="nav-link" href="#">
@@ -170,7 +167,7 @@ const NavBar = (props) => {
           <Route path="/Botellas" element={<Botellas />} />
           <Route path="/Loncherita" element={<Loncherita />} />
         </Routes>
-        <Footer />
+        <Footer imagenface="face" imagenig="instagram" />
         <Outlet />
       </div>
     </div>

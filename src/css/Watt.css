@@ -37,3 +37,7 @@ footer p {
         font-size: 20px;
     }
 }
+
+.wt-superior {
+    z-index: 1000;
+}

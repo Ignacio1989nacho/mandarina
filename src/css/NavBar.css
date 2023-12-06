@@ -120,3 +120,10 @@
 .ocultar:target {
     visibility:visible;
 }
+
+.pop-superior {
+
+    position: sticky;
+        top: 0;
+    z-index: 100;
+}
