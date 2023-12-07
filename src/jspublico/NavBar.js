@@ -10,6 +10,7 @@ import Yerberos from "./Yerberos";
 import JuegoMate from "./JuegoMate";
 import Loncherita from "./Loncherita";
 import Header from "./Header";
+import Cajitas from "./Cajitas";
   //selecciona todos los elementos con la clase igual.
 
   
@@ -118,6 +119,19 @@ const NavBar = (props) => {
                     </li>
                     <li class="nav-item ">
                       <Link
+                        to="/Cajitas"
+                        className="color-font descrip-text eliminar-linea-link"
+                        onClick={() => {
+                          // Aquí es donde seleccionas y haces click en el botón .btn-close
+                          var boton = document.querySelector(".btn-close");
+                          boton.click();
+                        }}
+                      >
+                        Cajitas{" "}
+                      </Link>
+                    </li>
+                    <li class="nav-item ">
+                      <Link
                         to="/Loncherita"
                         className="color-font descrip-text eliminar-linea-link"
                         onClick={() => {
@@ -167,6 +181,7 @@ const NavBar = (props) => {
             <Route path="/JuegoMate" element={<JuegoMate />} />
             <Route path="/Botellas" element={<Botellas />} />
             <Route path="/Loncherita" element={<Loncherita />} />
+            <Route path="/Cajitas" element={<Cajitas />} />
           </Routes>
           <Footer imagenface="face" imagenig="instagram" />
           <Outlet />
