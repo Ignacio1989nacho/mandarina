@@ -22,18 +22,20 @@ function App() {
   }, [isModalOpen]);
 
   return (
-    <div className="App border-radio">
-      {isModalOpen && <Popnews onClose={() => setIsModalOpen(false)} />}
-      <NavBar />
-      <a
-        href="https://wa.me/1234567890"
-        className="whatsapp-icon wt-superior"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-whatsapp"></i>
-      </a>
-    </div>
+    
+      <div className="App border-radio">
+        {isModalOpen && <Popnews onClose={() => setIsModalOpen(false)} />}
+        <NavBar />
+        <a
+          href="https://wa.me/1234567890"
+          className="whatsapp-icon wt-superior"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-whatsapp"></i>
+        </a>
+      </div>
+    
   );
 }
 

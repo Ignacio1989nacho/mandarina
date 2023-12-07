@@ -127,3 +127,6 @@
         top: 0;
     z-index: 100;
 }
+.border-general-dos{
+    border:solid rgb(237, 93, 5) 1px;
+}

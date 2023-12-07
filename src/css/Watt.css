@@ -41,3 +41,7 @@ footer p {
 .wt-superior {
     z-index: 1000;
 }
+
+.borde-violeta{
+    border:solid black 3px;
+}
