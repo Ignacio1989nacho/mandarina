@@ -130,3 +130,7 @@
 .border-general-dos{
     border:solid rgb(237, 93, 5) 1px;
 }
+
+.nav-link{
+    padding:0!important;
+}

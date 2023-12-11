@@ -11,6 +11,8 @@ import JuegoMate from "./JuegoMate";
 import Loncherita from "./Loncherita";
 import Header from "./Header";
 import Cajitas from "./Cajitas";
+import Nosotros from "./Nosotros";
+import Contacto from "./Contacto";
   //selecciona todos los elementos con la clase igual.
 
   
@@ -91,9 +93,98 @@ const NavBar = (props) => {
                         Inicio{}
                       </Link>
                     </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        data-bs-toggle="dropdown"
+                        href="#"
+                        role="button"
+                        aria-expanded="false"
+                      >
+                        Productos
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item dropdown-item">
+                          <Link
+                            to="/Basos"
+                            className="color-font descrip-text eliminar-linea-link"
+                            onClick={() => {
+                              // Aquí es donde seleccionas y haces click en el botón .btn-close
+                              var boton = document.querySelector(".btn-close");
+                              boton.click();
+                            }}
+                          >
+                            Vasos{" "}
+                          </Link>
+                        </li>
+                        <li>
+                          <li class="nav-item dropdown-item">
+                            <Link
+                              to="/Botellas"
+                              className="color-font descrip-text eliminar-linea-link"
+                              onClick={() => {
+                                // Aquí es donde seleccionas y haces click en el botón .btn-close
+                                var boton =
+                                  document.querySelector(".btn-close");
+                                boton.click();
+                              }}
+                            >
+                              Botellas{" "}
+                            </Link>
+                          </li>
+                        </li>
+                        <li>
+                          <li class="nav-item dropdown-item">
+                            <Link
+                              to="/Cajitas"
+                              className="color-font descrip-text eliminar-linea-link"
+                              onClick={() => {
+                                // Aquí es donde seleccionas y haces click en el botón .btn-close
+                                var boton =
+                                  document.querySelector(".btn-close");
+                                boton.click();
+                              }}
+                            >
+                              Cajitas{" "}
+                            </Link>
+                          </li>
+                        </li>
+
+                        <li>
+                          <li class="nav-item dropdown-item">
+                            <Link
+                              to="/JuegoMate"
+                              className="color-font descrip-text eliminar-linea-link"
+                              onClick={() => {
+                                // Aquí es donde seleccionas y haces click en el botón .btn-close
+                                var boton =
+                                  document.querySelector(".btn-close");
+                                boton.click();
+                              }}
+                            >
+                              Juego de Mate{" "}
+                            </Link>
+                          </li>
+                          <li class="nav-item dropdown-item">
+                            <Link
+                              to="/YerberosyZucareras"
+                              className="color-font descrip-text eliminar-linea-link"
+                              onClick={() => {
+                                // Aquí es donde seleccionas y haces click en el botón .btn-close
+                                var boton =
+                                  document.querySelector(".btn-close");
+                                boton.click();
+                              }}
+                            >
+                              Yerberos y Zucareras{" "}
+                            </Link>
+                          </li>
+                        </li>
+                      </ul>
+                    </li>
                     <li class="nav-item ">
                       <Link
-                        to="/Basos"
+                        to="/Nosotros"
                         className="color-font descrip-text eliminar-linea-link"
                         onClick={() => {
                           // Aquí es donde seleccionas y haces click en el botón .btn-close
@@ -101,12 +192,12 @@ const NavBar = (props) => {
                           boton.click();
                         }}
                       >
-                        Vasos{" "}
+                        Nosotros{}
                       </Link>
                     </li>
                     <li class="nav-item ">
                       <Link
-                        to="/Botellas"
+                        to="/Contacto"
                         className="color-font descrip-text eliminar-linea-link"
                         onClick={() => {
                           // Aquí es donde seleccionas y haces click en el botón .btn-close
@@ -114,59 +205,7 @@ const NavBar = (props) => {
                           boton.click();
                         }}
                       >
-                        Botellas{" "}
-                      </Link>
-                    </li>
-                    <li class="nav-item ">
-                      <Link
-                        to="/Cajitas"
-                        className="color-font descrip-text eliminar-linea-link"
-                        onClick={() => {
-                          // Aquí es donde seleccionas y haces click en el botón .btn-close
-                          var boton = document.querySelector(".btn-close");
-                          boton.click();
-                        }}
-                      >
-                        Cajitas{" "}
-                      </Link>
-                    </li>
-                    <li class="nav-item ">
-                      <Link
-                        to="/Loncherita"
-                        className="color-font descrip-text eliminar-linea-link"
-                        onClick={() => {
-                          // Aquí es donde seleccionas y haces click en el botón .btn-close
-                          var boton = document.querySelector(".btn-close");
-                          boton.click();
-                        }}
-                      >
-                        Loncherita{" "}
-                      </Link>
-                    </li>
-                    <li class="nav-item ">
-                      <Link
-                        to="/JuegoMate"
-                        className="color-font descrip-text eliminar-linea-link"
-                        onClick={() => {
-                          // Aquí es donde seleccionas y haces click en el botón .btn-close
-                          var boton = document.querySelector(".btn-close");
-                          boton.click();
-                        }}
-                      >
-                        Juego de Mate{" "}
-                      </Link>
-                    </li>
-                    <li class="nav-item ">
-                      <Link
-                        to="/YerberosyZucareras"
-                        className="color-font descrip-text eliminar-linea-link"
-                        onClick={() => {
-                          // Aquí es donde seleccionas y haces click en el botón .btn-close
-                          var boton = document.querySelector(".btn-close");
-                          boton.click();
-                        }}
-                      >
-                        Yerberos y Zucareras{" "}
+                        Contacto{}
                       </Link>
                     </li>
                   </ul>
@@ -182,6 +221,8 @@ const NavBar = (props) => {
             <Route path="/Botellas" element={<Botellas />} />
             <Route path="/Loncherita" element={<Loncherita />} />
             <Route path="/Cajitas" element={<Cajitas />} />
+            <Route path="/Nosotros" element={<Nosotros />} />
+            <Route path="/Contacto" element={<Contacto />} />
           </Routes>
           <Footer imagenface="face" imagenig="instagram" />
           <Outlet />
